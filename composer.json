@@ -1,0 +1,22 @@
+{
+    "name": "denislam/laravel-forge-api-sdk-php",
+    "description": "SDK for PHP for accessing the official Laravel Forge API",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laravel_Forge_API_SDK_PHP\\": "src/laravel-forge-api-sdk-php/"
+        }
+    },
+    "authors": [
+        {
+           "name": "Denis Lam",
+           "email": "denis@fullstackpros.io",
+           "homepage": "https://fullstackpros.io",
+           "role": "Founder"
+        }
+    ]
+}
